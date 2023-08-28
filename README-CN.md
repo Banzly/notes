@@ -1,4 +1,4 @@
-# Jekyll Paper for Github
+<!-- # Jekyll Paper for Github
 
 ![Jekyll Paper](./favicon.ico)
 
@@ -91,3 +91,4 @@ Jekyll Paper for Github通过MIT许可发布。
 [jekyll-paper]: https://github.com/ghosind/Jekyll-Paper
 [jekyll-paper-github]: https://github.com/ghosind/Jekyll-Paper-Github
 [jekyll-paper-github-issues]: https://github.com/ghosind/Jekyll-Paper-Github/issues
+ -->
