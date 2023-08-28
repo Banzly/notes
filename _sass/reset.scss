@@ -6,52 +6,53 @@
   font-family: Courier New, Courier, monospace;
 }
 
-html,
-body {
+html, body {
   height: 100%;
+  background-color: #060912;
+  color: #acb6bf;
 }
 
 a {
   text-decoration: none;
-  color: #000;
+  color: #5463c4;
+  border-bottom: 1px solid black;
 }
 
 a:hover {
   color: #aaa;
+  border-bottom: 1px solid #aaa;
 }
 
 blockquote {
   margin: 15px;
   padding-left: 15px;
-  border-left: 2px solid #888;
+  border-left: 2px solid #DD82A2;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   line-height: normal;
   margin: 5px 0;
   text-indent: 0;
+  color: #91bad6;
 }
-
+code.language-plaintext.highlighter-rouge {
+  color: #DD82A2;
+}
 h2 {
   font-size: 1.3em;
 }
 
 hr {
-  margin: 10px;
-  border: 1px solid #eee;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  border: 2px solid #91bad6;
 }
 
 img {
   max-width: 700px;
 }
 
-ol,
-ul {
+ol, ul {
   margin-left: 35px;
 }
 
@@ -63,7 +64,7 @@ table {
   width: 100%;
 }
 
-tbody tr:hover {
+tbody tr:hover{
   background-color: #f5f5f5;
 }
 
@@ -72,13 +73,8 @@ td {
   border-bottom: 1px solid #ddd;
 }
 
-th {
+th {  
   padding: 8px;
   border-bottom: 1px solid #ccc;
   background: #f5f5f5;
-}
-
-// markdown reset
-a.reversefootnote {
-  display: none;
 }

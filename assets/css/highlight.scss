@@ -10,13 +10,13 @@
 @charset "utf-8";
 
 .highlight {
-  table {
+  table{
     td {
-      padding: 5px;
+      padding: 5px; 
     }
 
-    pre {
-      margin: 0;
+    pre { 
+      margin: 0px; 
     }
   }
 
@@ -31,7 +31,7 @@
     background-color: #c00;
   }
 
-  // 	Token for data not matched by a parser (e.g. HTML markup in PHP code)
+  //  Token for data not matched by a parser (e.g. HTML markup in PHP code)
   .x {
     color: #000;
   }
@@ -80,7 +80,7 @@
 
   //Variable/function names
   .n {
-    color: #000;
+    color: #95b5cf;
   }
 
   // Attributes (in HTML for instance)
@@ -90,13 +90,14 @@
 
   // Builtin names which are available in the global namespace
   .nb {
+    color: #2069b3;
     font-weight: bold;
   }
 
   // Builtin names that are implicit (such as self in Ruby)
   .bp {
     font-weight: bold;
-    color: #808;
+    color: #7c00c4;
   }
 
   // For class declaration
@@ -131,7 +132,8 @@
 
   // Function names
   .nf {
-    color: #008;
+    color: #7171d9;
+    font-weight: bold;
   }
 
   // Token for properties
@@ -148,12 +150,12 @@
   // Token for namespaces
   .nn {
     font-weight: bold;
-    color: #808;
+    color: #c423c4;
   }
 
-  // 	For other names
+  //  For other names
   .nx {
-    color: #000;
+    color: #909ead;
   }
 
   // Tag mainly for markup such as XML or HTML
@@ -165,7 +167,7 @@
   // Token for variables
   .nv {
     font-weight: bold;
-    color: #008;
+    color: #fa3434;
   }
 
   // Token for class variables (e.g. @@var in Ruby)
@@ -173,7 +175,7 @@
     font-weight: bold;
     color: #008;
   }
-
+  
   // For global variables (such as $LOAD_PATH in Ruby)
   .vg {
     font-weight: bold;
@@ -200,13 +202,18 @@
   // String literals
   .s {
     font-weight: bold;
-    color: #800;
+    color: #93bd76;
   }
 
   // String enclosed in backticks
   .sb {
     font-weight: bold;
-    color: #800;
+    color: #93bd76;
+  }
+
+  .s1 {
+    color: #89aacc;
+    font-weight: bold;
   }
 
   // Token type for single characters
@@ -224,13 +231,13 @@
   // Double quoted strings
   .s2 {
     font-weight: bold;
-    color: #800;
+    color: #93bd76;
   }
 
   // Escaped sequences in strings
   .se {
     font-weight: bold;
-    color: #800;
+    color: #dba644;
   }
 
   // For "heredoc" strings (e.g. in Ruby)
@@ -238,29 +245,25 @@
     font-weight: bold;
     color: #800;
   }
-
+  
   // For interpoled part in strings (e.g. in Ruby)
-  .si {
-    font-weight: bold;
-    color: #800;
-  }
 
   // Token type for any other strings (for example %q{foo} string constructs in Ruby)
   .sx {
     font-weight: bold;
-    color: #800;
+    color: #b9cf4e;
   }
 
   // Regular expressions literals
   .sr {
     font-weight: bold;
-    color: #800;
+    color: #b9cf4e;
   }
 
   // Single quoted strings
   .s1 {
     font-weight: bold;
-    color: #800;
+    color: #93bd76;
   }
 
   // Symbols (such as :foo in Ruby)
@@ -274,7 +277,7 @@
     font-weight: bold;
     color: #f696db;
   }
-
+  
   // Float numbers
   .mf {
     font-weight: bold;
@@ -320,7 +323,7 @@
   // Operators (commonly +, -, /, *)
   .o {
     font-weight: bold;
-    color: #157c83;
+    color: #408fde;
   }
 
   // Word operators (e.g. and)
@@ -339,7 +342,7 @@
     font-style: italic;
     color: #228b22;
   }
-
+  
   // Mutliline comments
   .cm {
     font-style: italic;
@@ -350,7 +353,7 @@
   .cp {
     font-style: italic;
     font-weight: bold;
-    color: #a52a2a;
+    color: #e32929;
   }
 
   // Comments that end at the end of the line
@@ -436,13 +439,13 @@
     font-style: italic;
     color: #228b22;
   }
-
+  
   // Keywords used for variable
   .kv {
     font-weight: bold;
     color: #c71585;
   }
-
+  
   // Punctuation which is an indicator
   .pi {
     color: #0f6f75;
