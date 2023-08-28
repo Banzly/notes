@@ -48,14 +48,14 @@ sass:
   sass_dir: _sass
   style: expanded # compressed, compact, expanded or compressed
 
-# Category settings
+# read settings
 jekyll-archives:
   enabled: 
     - categories
     - tags
   layout: archive
   permalinks:
-    category: /category/:name/
+    read: /read/:name/
     tag: /tag/:name/
 
 # Build settings

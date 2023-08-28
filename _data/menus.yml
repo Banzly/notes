@@ -1,8 +1,8 @@
 - title: "home"
   url:   ""
 
-- title: "categories"
-  url:   "category"
+- title: "reading"
+  url:   "read"
 
 - title:  "projects"
   url:    "projects"
