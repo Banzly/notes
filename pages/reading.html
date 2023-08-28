@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 'reading'
-permalink: /read/
+permalink: /notes/reading/   # Perubahan permalink di sini
 ---
 
 <article class="page-container">
@@ -10,7 +10,7 @@ permalink: /read/
   </div>
   <ul class="reading-list">
     {% for read in site.reading %}
-      <li><a href="{{ base.url }}/read/{{ read | first | slugify }}">{{ read | first }}</a></li>
+      <li><a href="{{ base.url }}/notes/reading/{{ read | first | slugify }}">{{ read | first }}</a></li>
     {% endfor %}
   </ul>
 </article>
