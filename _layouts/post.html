@@ -16,10 +16,10 @@ layout: default
     <div class="post-date">
       {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%d" }}{% if page.last_modified_at %}, {{ site.data.lang[site.language].post_update_date }}{{ page.last_modified_at | date: "%Y-%m-%d" }}{% endif %}.
     </div>
-    <div class="post-categories">
-      <span>{{ site.data.lang[site.language].post_categories }}</span>
-      {% for category in page.categories %}
-      <a href="{{ site.baseurl }}/category/{{ category | slugify }}" class="post-category">{{ category }}</a>
+    <div class="post-reading">
+      <span>{{ site.data.lang[site.language].post_reading }}</span>
+      {% for read in page.reading %}
+      <a href="{{ site.baseurl }}/read/{{ read | slugify }}" class="post-read">{{ read }}</a>
       {% endfor %}
     </div>
     <div class="post-tags">
