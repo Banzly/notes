@@ -51,11 +51,11 @@ sass:
 # read settings
 jekyll-archives:
   enabled: 
-    - reading
+    - reading   # Ganti categories menjadi reading
     - tags
   layout: archive
   permalinks:
-    read: /read/:name/
+    reading: /notes/reading/:name/   # Ganti /category/ menjadi /reading/
     tag: /tag/:name/
 
 # Build settings
