@@ -1,25 +1,25 @@
 @charset "utf-8";
 
-.note-title {
+.post-title {
   text-align: center;
 }
 
-.note-author {
+.post-author {
   display: none;
 }
 
-.note-content img {
+.post-content img {
   border: 2px solid #81abc7;
   padding: 5px;
   display: block;
   margin: 10px auto;
 }
 
-.note-info {
+.post-info {
   line-height: 24px;
   margin: 10px 0;
 }
 
-.note-category, .note-tag {
+.post-category, .post-tag {
   margin: 0 5px;
 }

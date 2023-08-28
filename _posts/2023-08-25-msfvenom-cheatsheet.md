@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: post
 title: "msfvenom cheatsheet"
 date: 2023-08-25
 categories: Notes

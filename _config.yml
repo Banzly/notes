@@ -42,7 +42,7 @@ disqus:          # disqus account
 mathjax: true # Mathematics
 mermaid: true # Diagrams
 
-permalink: /:title
+permalink: /notes/:title/
 
 sass:
   sass_dir: _sass
@@ -55,8 +55,8 @@ jekyll-archives:
     - tags
   layout: archive
   permalinks:
-    category: /category/read/:name/
-    tag: /tag/read/:name/
+    category: /category/:name/
+    tag: /tag/:name/
 
 # Build settings
 markdown: kramdown

@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: post
 title:  "Programming"
 date:   2023-05-07
 last_modified_at: 2023-05-07
